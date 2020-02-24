@@ -1,0 +1,17 @@
+{
+  "extends": ["tslint:latest", "tslint-react"],
+  "linterOptions": {
+    "exclude": ["config/**/*.ts", "node_modules/**/*.ts", "coverage/lcov-report/*.ts"]
+  },
+  "rules": {
+    "trailing-comma": false,
+    "jsx-no-multiline-js": false,
+    "jsx-wrap-multiline": false,
+    "arrow-parens": false,
+    "no-unused-expression": false,
+    "jsx-no-lambda": false,
+    "object-literal-sort-keys": false,
+    "no-implicit-dependencies": false,
+    "no-submodule-imports": false
+  }
+}

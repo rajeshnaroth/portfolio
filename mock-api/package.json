@@ -1,0 +1,24 @@
+{
+  "name": "mock-api",
+  "version": "1.0.0",
+  "description": "Mock api for app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "author": "Rajesh Naroth",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "1.4.4",
+    "debug": "2.6.9",
+    "express": "4.16.1",
+    "faker": "4.1.0",
+    "http-errors": "1.6.3",
+    "morgan": "1.9.1",
+    "pug": "2.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
